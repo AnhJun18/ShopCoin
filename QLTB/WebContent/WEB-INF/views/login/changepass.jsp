@@ -7,57 +7,16 @@
 <meta charset="UTF-8">
 <title>Đổi Mật Khẩu</title>
 <base href="${pageContext.servletContext.contextPath }/" />
-<link rel="icon" href="resource/images/logo.png" type="image/x-icon" />
+<link rel="icon" href="https://shopcoinusa.com/wp-content/uploads/2021/12/cropped-logo-2-180x180.png" type="image/x-icon" />
 <!-- <link
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	rel="stylesheet"> -->
 <link href="resource/assets/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="resource/assets/dist/css/login.css" rel="stylesheet">
-
-<link
-	href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-	rel="stylesheet">
-<script src="https://kit.fontawesome.com/56d73d7086.js"
-	crossorigin="anonymous"></script>
+<link href="resource/assets/dist/css/pageacc.css" rel="stylesheet">
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
-<style>
-.bd-placeholder-img {
-	font-size: 1.125rem;
-	text-anchor: middle;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	user-select: none;
-}
-
-#logo img {
-	max-height: 4rem;
-	height: 74px;
-}
-
-.header {
-	box-shadow: 2px 6px 5px #dbdbde;
-	background: #fff;
-	height: 75px;
-}
-
-.navbar, .navbar a {
-	padding: 0 27px;
-}
-
-@media ( min-width : 992px) {
-	.container, .container-lg, .container-md, .container-sm {
-		max-width: 520px !important;
-	}
-}
-
-@media only screen and (min-width: 576px ) and (max-width: 992px) {
-	.container, .container-lg, .container-md, .container-sm {
-		min-width: 100% !important;
-	}
-}
-</style>
 <body>
 	<div class="header fixed-top">
 		<nav class="navbar navbar-expand-md   ">
@@ -90,7 +49,7 @@
 									<input type="password" name="pass" placeholder="Nhập mật khẩu mới" />
 								</div>
 								<div class="row px-3 mb-2 mb-2">
-									<input type="password" name="rppass" placeholder="Xác nhận mật khẩu mới" />
+									<input type="password"  name="rppass" placeholder="Xác nhận mật khẩu mới" />
 								</div>
 								
 								<label class="mb-1">

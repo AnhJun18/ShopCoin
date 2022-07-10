@@ -1,0 +1,33 @@
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+#logo img {
+    max-height: 4rem;
+	height: 74px;
+}
+
+.header {
+	box-shadow: 2px 6px 5px #dbdbde;
+	background: #fff;
+	height: 75px;
+}
+.navbar,.navbar a{
+ padding:0 27px;
+}
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+	
+   max-width: 520px !important;
+   
+}}
+@media only screen and (min-width: 576px ) and (max-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    min-width: 100% !important;
+   
+}}
